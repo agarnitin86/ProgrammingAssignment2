@@ -31,7 +31,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 }
 
-# This function first checks whether the inverse of matrix has already been computed.
+# This function first checks, whether the inverse of matrix has already been computed.
 # If it has already been compted, it returns the inverse from the cache.
 # If not then it computes the inverse and returns it.
 
